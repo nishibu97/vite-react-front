@@ -1,0 +1,12 @@
+# 依存関係
+node_modules
+package-lock.json
+
+# ビルド出力
+dist
+build
+coverage
+
+# その他
+.DS_Store
+*.log
