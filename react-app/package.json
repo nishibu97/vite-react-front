@@ -70,5 +70,8 @@
     "*.{css,md,json}": [
       "prettier --write"
     ]
-  }
+  },
+  "ignorePatterns": [
+    "!.storybook"
+  ]
 }
