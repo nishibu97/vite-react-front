@@ -11,7 +11,7 @@ Vite + React 19 を使用したモダンな SPA フロントエンドアプリ�
 - **React**: v19.2.0 (最新版)
 - **TypeScript**: v5.9.3
 - **Vite**: rolldown-vite@7.2.5 (実験的バンドラー)
-- **Node.js**: v22.12.0
+- **Node.js**: v22.22.0
 
 ### UI ライブラリ
 
