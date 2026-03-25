@@ -5,7 +5,6 @@ import './index.css';
 import App from './App.tsx';
 import Login from './pages/Login.tsx';
 import AuthLayout from './components/layouts/AuthLayout.tsx';
-import DashboardLayout from './components/layouts/DashboardLayout.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,10 +15,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/login" element={<Login />} />
         </Route>
 
-        {/* ログイン後のルート（DashboardLayout適用） */}
-        <Route element={<DashboardLayout />}>
-          <Route path="/" element={<App />} />
-        </Route>
+        {/* ログイン後のルート */}
+        <Route path="/" element={<App />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
